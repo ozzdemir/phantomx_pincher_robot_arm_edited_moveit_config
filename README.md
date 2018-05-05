@@ -13,10 +13,10 @@ Installing ROS and preparing its environment.
 	Once you are familiar with the environment, done with the tutorials, and have your catkin workspace ready, you can move on to 
   working with your project.
 
-  Download the necessary packages to your workspace e.g: catkinws/src
+  Download the necessary packages to your workspace e.g: catkinws/src >>
   update the workspace 
-  $ wstool update -t src
-
-  running the program
-  $ roslaunch phantomx_pincher_robot_arm_edited_moveit_config moveit_gui_all.launch
+  $ wstool update -t src 
+>>
+  running the program >>
+  $ roslaunch phantomx_pincher_robot_arm_edited_moveit_config moveit_gui_all.launch >>
   $ roslaunch phantomx_pincher_robot_arm_edited_moveit_config arm.launch
