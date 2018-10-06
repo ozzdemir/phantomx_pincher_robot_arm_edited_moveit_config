@@ -1,5 +1,0 @@
-<launch>
-<!-- Now load robot model -->
-  <param name="robot_description" command="$(find xacro)/xacro.py '$(find phantomx_pincher_robot_arm_edited)/urdf/phantomx_pincher_robot_arm_edited.urdf'"/>
-  <node name="robot_state_pub" pkg="robot_state_publisher" type="robot_state_publisher"/>
-</launch>
