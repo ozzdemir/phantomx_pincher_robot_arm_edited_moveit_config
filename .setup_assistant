@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: phantomx_pincher_robot_arm_edited
+    relative_path: urdf/phantomx_pincher_robot_arm_edited.urdf
+  SRDF:
+    relative_path: config/phantomx_pincher_robot_arm_edited.srdf
+  CONFIG:
+    author_name: ozzdemir
+    author_email: oguz.ozdemir@ieee.metu.edu.tr
+    generated_timestamp: 1525517379
