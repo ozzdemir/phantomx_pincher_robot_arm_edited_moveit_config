@@ -6,7 +6,7 @@
     <node pkg="tf" type="static_transform_publisher" name="base_link_2_world" args=" 0 0 0 0 0 0  world base_link  0"/> 
     
   <!-- Unfortunately, we need a virtual helper joint that is part of the URDF -->
-  <node name="fake_joint_pub" pkg="phantomx_pincher_robot_arm_edited" type="fake_joint_pub.py" output="screen"/> 
+  <node name="fake_joint_pub" pkg="phantomx_pincher_robot_arm_edited_moveit_config" type="fake_joint_pub.py" output="screen"/> 
 
   <!-- Now load robot model -->
   <param name="robot_description" command="$(find xacro)/xacro.py '$(find phantomx_pincher_robot_arm_edited)/urdf/phantomx_pincher_robot_arm_edited.urdf'"/>
